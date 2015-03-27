@@ -1,4 +1,77 @@
-# Simple repository template.
-1. git clone git@github.com:janmaghuyop/base-repo.git your-repo-name
-2. git remote remove origin
-3. git remote add origin git@github.com:yourusername/your-repo-name.git
+# Contribution Instructions
+
+## 1. Fork the repository
+1. Open in a new tab https://github.com/janmaghuyop/work-collab
+2. In the top-right corner of the page, click Fork button.
+
+## 2. Clone the forked repository
+1. On GitHub, navigate to your fork.
+2. In the right side of your fork's repository page, copy the clone URL.
+3. Open the terminal, copy and paste the command(s) below and hit enter.
+```
+cd ~/Downloads
+git clone git@github.com:username/work-collab.git
+cd work-collab
+```
+
+## 3. Set upstream URL
+Open the terminal, copy and paste the command(s) below and hit enter.
+```
+git remote add upstream git@github.com:janmaghuyop/work-collab.git
+```
+
+## 4. Create a feature branch
+Open the terminal, copy and paste the command(s) below and hit enter.
+```
+git checkout -b branch-name
+
+```
+
+## 5. Make your contribution in the feature branch
+```
+echo "make your changes"
+```
+
+## 6. Check for changes
+Open the terminal, copy and paste the command(s) below and hit enter.
+```
+# if any file(s) is added
+git status
+# changes inside the files
+git diff
+```
+
+## 7. Commit your changes
+Open the terminal, copy and paste the command(s) below and hit enter.
+```
+git commit -am "contribution description"
+```
+
+## 8. Pull new commits from upstream
+Open the terminal, copy and paste the command(s) below and hit enter.
+```
+git pull upstream master
+```
+
+## 9. Push your changes to your remote repository
+Open the terminal, copy and paste the command(s) below and hit enter.
+```
+git push origin branch-name
+```
+
+## 10. Create a pull request.
+1. Navigate to your repository.
+2. Switch to your feature branch.
+3. Click the Compare & review button.
+4. Review the pull request.
+5. Press create pull request button.
+
+
+# References
+- https://try.github.io
+- https://help.github.com/index.html
+- https://www.atlassian.com/git/tutorials
+- https://help.github.com/articles/fork-a-repo
+- https://help.github.com/articles/syncing-a-fork
+- https://help.github.com/articles/using-pull-requests
+- https://help.github.com/articles/merging-an-upstream-repository-into-your-fork
