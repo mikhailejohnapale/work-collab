@@ -69,6 +69,7 @@ git push origin branch-name
 
 # References
 - https://try.github.io
+- https://guides.github.com/activities/hello-world
 - https://help.github.com/index.html
 - https://www.atlassian.com/git/tutorials
 - https://help.github.com/articles/fork-a-repo
